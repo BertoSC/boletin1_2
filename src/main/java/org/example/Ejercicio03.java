@@ -24,8 +24,5 @@ public class Ejercicio03 {
         File arch = new File("C:\\Users\\a23albertogc\\Desktop\\AD\\BOLETIN1_2\\src\\main\\java\\org\\example");
         Stream<String> s= Arrays.stream(arch.list());
         s.filter(f->f.contains(".java")).forEach(f-> System.out.println(f));
-
-
-
     }
 }
